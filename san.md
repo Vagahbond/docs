@@ -1,13 +1,13 @@
 # SAN Language
-Simple and elegant, SAN is a programming language designed to develop strong code base that gives control on everything.
+Simple and elegant, SAN is a programming language designed to develop strong code base that gives control over everything.
 
 # Syntax
 The syntax is very inspired from Rust language.
 
 Some specificities:
 - Strongly typed
-- Architecture near with the compiled output
-- The lines are separated by line jumps, nothing else
+- Architecture near the compiled output
+- The lines are separated by line breaks, nothing else
 
 ## Primitive Types
 ### Signed Integers
@@ -66,7 +66,7 @@ Pretty much like arrays but without the specified array size: `T[]`.
 - `:` - Typing
 
 ## Variables
-In order to store and use any kind of data a variable is what to use.
+If you want to store and manipulate data, you're going to need variables.
 The syntax is `let <name>: <type> = <value>;`.
 
 ```rs
@@ -84,7 +84,7 @@ if 1 == 1 {
 }
 ```
 
-You can put whatever expression you wants in a condition.
+You can put whatever expression you want in a condition.
 
 ## Loops
 ### While loop
@@ -170,7 +170,7 @@ class Person {
 
 In this class, we defined 3 properties: `firstname` and `lastname` of type `str` and `age` of type `i16`.
 
-Since SAN doesn't provide an explicit constructor, we uses `new` methods by standard. In this case, we [overloaded](https://en.wikipedia.org/wiki/Function_overloading) the `new` function with one argument (`age`).
+Since SAN doesn't provide an explicit constructor, we use `new` methods by standard. In this case, we [overloaded](https://en.wikipedia.org/wiki/Function_overloading) the `new` function with one argument (`age`).
 
 Last but not least, `to_str` function can be used to transform the class into a printable string.
 
@@ -187,7 +187,7 @@ fn main() {
 }
 ```
 
-This code will outputs:
+This code will output:
 ```
 Johnatan Doe - 0
 Maria Springfield - 34
@@ -238,7 +238,7 @@ fn main() {
 ```
 
 ## Comments
-To note important information about any part of your code, comments comes very useful and are a necessity in programming languages.
+To note important information about any part of your code, comments come very useful and are a necessity in programming languages.
 
 In SAN, comments are the same as in most of the popular programming languages out there:
 ```rs
